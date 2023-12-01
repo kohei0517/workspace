@@ -4,8 +4,8 @@ public class UseVariables {
 		String name = "サトウ";
 		int num = 551;
 		double dec = 67.8;
-		char characte = 1;
-		byte testbyte = 200;
+		byte testbyte;
+		testbyte = 100;
 		boolean checker = true;
 		
 		System.out.println(name);
